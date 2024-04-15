@@ -1,0 +1,40 @@
+{
+  "name": "namaste-react-project",
+  "version": "1.0.0",
+  "description": "This is a react course",
+  "proxy": "http://localhost:1234",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/najimali/namaste-react.git"
+  },
+  "author": "Najim Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/najimali/namaste-react/issues"
+  },
+  "homepage": "https://github.com/najimali/namaste-react#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@reduxjs/toolkit": "^2.0.1",
+    "axios": "^1.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.0.4",
+    "react-router-dom": "^6.20.1"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "browsersList": [
+    "last 2 version"
+  ]
+}
